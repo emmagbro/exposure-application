@@ -1,0 +1,177 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/theming/
+
+// Font path is used to include ionicons,
+// roboto, and noto sans fonts
+$font-path: "../assets/fonts";
+
+
+// The app direction is used to include
+// rtl styles in your app. For more info, please see:
+// http://ionicframework.com/docs/theming/rtl-support/
+$app-direction: ltr;
+
+
+@import "ionic.globals";
+
+
+// Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files.
+// To view all the possible Ionic variables, see:
+// http://ionicframework.com/docs/theming/overriding-ionic-variables/
+
+// Toolbar font sizes
+$toolbar-ios-title-font-size: 2rem;
+$toolbar-md-title-font-size: 2rem;
+$toolbar-wp-title-font-size: 2rem;
+$toolbar-ios-title-font-weight: 400;
+$toolbar-wp-title-font-weight: 400;
+
+//Remove space below list
+$list-ios-margin-bottom: 0px;
+
+//Tab colour to main
+$tabs-ios-tab-color-active: #007AFF;
+
+//Range styling
+$range-ios-padding-horizontal: 0px;
+$range-ios-padding-vertical: 0px;
+$range-ios-knob-width: 20px;
+ion-range>ion-label {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.item-ios.item-range {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: transparent;
+}
+.item-ios.item-block.item-range>.item-inner {
+  padding-right: 0px;
+  border-bottom: 0px;
+}
+$range-ios-bar-height: 2px;
+
+
+//Input styling
+ion-textarea {
+  border: 1px solid #000;
+  border-radius: 4px;
+  height: 100px;
+}
+ion-textarea>.text-input-ios {
+  margin-top: 5px;
+}
+
+//Select boxes for goal-setting
+$popover-ios-width: 300px;
+
+//Searchbar styling
+$searchbar-ios-background-color: rgba(255, 255, 255, 0);
+$searchbar-ios-border-color: rgba(255, 204, 0, 1);
+
+//Checkbox styling
+$checkbox-ios-background-color-on: #4CD964;
+
+//Icon button styling
+#challengeList-button15, #addChallengeButton, #deleteChallengeButton {
+  border-style: none;
+  font-size: 1.6rem;
+}
+
+//Next challenge scheduling button style
+#nextChallenge-button18, #goals-button9, #goals-button25 {
+  text-decoration: underline;
+}
+
+//Next challenge begin now button
+#nextChallenge-button7, #smileAtSomeDude3-button20 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#smileAtSomeDude3-button20 {
+  text-align: center;
+  line-height: 2.6rem;
+}
+
+// Page background and images
+#page12 {
+  // background-image: url("../img/Artboard 1.png");
+  // background-color: rgb(90, 200, 250);
+}
+
+.item-ios.item-input {
+  background-color: transparent;
+}
+
+ion-textarea.input {
+  background-color: #fff;
+}
+
+
+// Named Color Variables
+// --------------------------------------------------
+// Named colors makes it easy to reuse colors on various components.
+// It's highly recommended to change the default colors
+// to match your app's branding. Ionic uses a Sass map of
+// colors so you can add, rename and remove colors as needed.
+// The "primary" color is the only required color in the map.
+
+$colors: (
+  primary:    #007AFF,
+  secondary:  #FFCC00,
+  green:      #4CD964,
+  danger:     #FF3B30,
+  light:      #FFFFFF,
+  dark:       #000000,
+);
+
+// App iOS Variables
+// --------------------------------------------------
+// iOS only Sass variables can go here
+
+
+
+
+// App Material Design Variables
+// --------------------------------------------------
+// Material Design only Sass variables can go here
+
+
+
+
+// App Windows Variables
+// --------------------------------------------------
+// Windows only Sass variables can go here
+
+
+
+
+// App Theme
+// --------------------------------------------------
+// Ionic apps can have different themes applied, which can
+// then be future customized. This import comes last
+// so that the above variables are used and Ionic's
+// default are overridden.
+
+@import "ionic.theme.default";
+
+
+// Ionicons
+// --------------------------------------------------
+// The premium icon font for Ionic. For more info, please see:
+// http://ionicframework.com/docs/ionicons/
+
+@import "ionic.ionicons";
+
+
+// Fonts
+// --------------------------------------------------
+
+@import "roboto";
+@import "noto-sans";

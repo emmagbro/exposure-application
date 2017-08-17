@@ -1,0 +1,18 @@
+page-tabs-controller {
+
+  @font-face {
+    font-family: 'Open Sans';
+    src: url(../assets/fonts/Open_Sans/OpenSans-Regular.ttf);
+  }
+
+  body, span, button, h1, h2, h3, h4, h5, h6, p, ion-item, ion-title  {
+    font-family: 'Open Sans';
+  }
+
+  // .toolbar-title-ios.toolbar-title {
+  //   font-weight: 100 !important;
+  //   color: blue;
+  //   text-align: left;
+  // }
+
+}
