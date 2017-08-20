@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { SmileAtSomeDudePage } from '../smile-at-some-dude/smile-at-some-dude';
+import { ChallengeComplete5Page } from '../challenge-complete5/challenge-complete5';
 import { ChallengeList4Page } from '../challenge-list4/challenge-list4';
 import { NextChallengePage } from '../next-challenge/next-challenge';
 
@@ -19,6 +20,9 @@ export class ChallengeCompletePage {
   }goToChallengeComplete(params){
     if (!params) params = {};
     this.navCtrl.push(ChallengeCompletePage);
+  }goToChallengeComplete5(params){
+    if (!params) params = {};
+    this.navCtrl.push(ChallengeComplete5Page);
   }goToChallengeList4(params){
     if (!params) params = {};
     this.navCtrl.push(ChallengeList4Page);

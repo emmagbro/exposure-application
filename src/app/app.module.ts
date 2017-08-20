@@ -12,6 +12,7 @@ import { NextChallengePage } from '../pages/next-challenge/next-challenge';
 import { SmileAtSomeDudePage } from '../pages/smile-at-some-dude/smile-at-some-dude';
 import { QuickAddPage } from '../pages/quick-add/quick-add';
 import { ChallengeCompletePage } from '../pages/challenge-complete/challenge-complete';
+import { ChallengeComplete5Page } from '../pages/challenge-complete5/challenge-complete5';
 import { GoalsPage } from '../pages/goals/goals';
 import { PastChallengeDetailsPage } from '../pages/past-challenge-details/past-challenge-details';
 import { TipsPage } from '../pages/tips/tips';
@@ -36,6 +37,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SmileAtSomeDudePage,
     QuickAddPage,
     ChallengeCompletePage,
+    ChallengeComplete5Page,
     GoalsPage,
     PastChallengeDetailsPage,
     TipsPage,
@@ -60,6 +62,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SmileAtSomeDudePage,
     QuickAddPage,
     ChallengeCompletePage,
+    ChallengeComplete5Page,
     GoalsPage,
     PastChallengeDetailsPage,
     TipsPage,
