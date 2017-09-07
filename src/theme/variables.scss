@@ -23,95 +23,46 @@ $app-direction: ltr;
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
 
 // Toolbar font sizes
-$toolbar-ios-title-font-size: 2rem;
-$toolbar-md-title-font-size: 2rem;
-$toolbar-wp-title-font-size: 2rem;
+$toolbar-ios-title-font-size: 1.7rem;
+$toolbar-md-title-font-size: 1.7rem;
+$toolbar-wp-title-font-size: 1.7rem;
 $toolbar-ios-title-font-weight: 400;
+$toolbar-md-title-font-weight: 400;
 $toolbar-wp-title-font-weight: 400;
 
 //Remove space below list
 $list-ios-margin-bottom: 0px;
+$list-md-margin-bottom: 0px;
+$list-wp-margin-bottom: 0px;
 
 //Tab colour to main
-$tabs-ios-tab-color-active: #007AFF;
+$tabs-tab-color-active: #007AFF;
+$tabs-tab-color-inactive: #000;
 
 //Range styling
 $range-ios-padding-horizontal: 0px;
+$range-md-padding-horizontal: 0px;
+$range-wp-padding-horizontal: 0px;
 $range-ios-padding-vertical: 0px;
+$range-md-padding-vertical: 0px;
+$range-wp-padding-vertical: 0px;
 $range-ios-knob-width: 20px;
-ion-range>ion-label {
-  font-size: 1.2rem;
-  text-align: center;
-}
-.item-ios.item-range {
-  padding-left: 0px;
-  padding-right: 0px;
-  background-color: transparent;
-}
-.item-ios.item-block.item-range>.item-inner {
-  padding-right: 0px;
-  border-bottom: 0px;
-}
+$range-md-knob-width: 20px;
+$range-wp-knob-width: 20px;
 $range-ios-bar-height: 2px;
-
-
-//Input styling
-ion-textarea {
-  border: 1px solid #000;
-  border-radius: 4px;
-  height: 100px;
-}
-ion-textarea>.text-input-ios {
-  margin-top: 5px;
-}
 
 //Select boxes for goal-setting
 $popover-ios-width: 300px;
+$popover-md-width: 300px;
+$popover-wp-width: 300px;
 
 //Searchbar styling
 $searchbar-ios-background-color: rgba(255, 255, 255, 0);
 $searchbar-ios-border-color: rgba(255, 204, 0, 1);
+$searchbar-wp-border-color: rgba(255, 204, 0, 1);
 
 //Checkbox styling
 $checkbox-ios-background-color-on: #4CD964;
-
-//Icon button styling
-#challengeList-button15, #addChallengeButton, #deleteChallengeButton {
-  border-style: none;
-  font-size: 1.6rem;
-}
-
-//Next challenge scheduling button style
-#nextChallenge-button18, #goals-button9, #goals-button25 {
-  text-decoration: underline;
-}
-
-//Next challenge begin now button
-#nextChallenge-button7, #smileAtSomeDude3-button20 {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
-#smileAtSomeDude3-button20 {
-  text-align: center;
-  line-height: 2.6rem;
-}
-
-// Page background and images
-#page12 {
-  // background-image: url("../img/Artboard 1.png");
-  // background-color: rgb(90, 200, 250);
-}
-
-.item-ios.item-input {
-  background-color: transparent;
-}
-
-ion-textarea.input {
-  background-color: #fff;
-}
 
 
 // Named Color Variables
